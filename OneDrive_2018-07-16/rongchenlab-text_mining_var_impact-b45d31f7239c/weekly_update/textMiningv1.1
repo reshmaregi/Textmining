@@ -1,0 +1,24 @@
+#%Module
+# module load cancer/textming-1.1
+#
+# Tags: ngs
+
+
+proc ModulesHelp { } {
+  puts stderr "cancer/textming-1.1"
+  puts stderr "TAGS: ngs"
+}
+
+module-whatis "cancer/textming-1.1"
+set baseDIR /sc/orga/projects/
+
+#setenv GATKRSRC_ROOT   $baseDIR/log/2.8
+#setenv SNPEFFRSRC_ROOT $baseDIR/snpeff/PMC
+#setenv PSEQRSRC_ROOT   $baseDIR/pseq/dev
+
+
+baseDIR="/sc/orga/projects/chenr02a/text_mining_var_impact"
+export TEXTMINING_LOG="$baseDIR/log/2.8"
+export PMC_PDF="$baseDIR/pmc/pdf"
+export PMC_XML="$baseDIR/pmc/xml"
+export MEDLINE_ROOT="$baseDIR/medline"

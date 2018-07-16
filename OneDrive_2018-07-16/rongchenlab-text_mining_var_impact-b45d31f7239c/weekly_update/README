@@ -1,0 +1,5 @@
+using module load textMiningv1.1 to setup variable enviroment
+put cronjob_update_weekly.sh
+
+
+/sc/orga/projects/chenr02a/text_mining_var_impact
